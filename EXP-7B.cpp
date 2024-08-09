@@ -3,21 +3,21 @@
 //EXP 7B
 //23070123124
 #include <iostream>
-#define S 4
 using namespace std;
 
 int main() {
-    int array1[S];
+    int array1[10];
     //take input from user
-    cout << "Enter " << S << " elements of array: ";
-    for (int index = 0; index < S; index++) {
+    cout << "Enter "<< " elements of array: ";
+    for (int index = 0; index < 10; index++) {
         cin >> array1[index];
     }
   cout << endl;
 
     // display entered array ekements
-    for (int j : array1) {
-        cout << j << "  ";
+     for (int index = 0; index < 10; index++) {
+              cout << array1[index];
+    cout << endl;
     }
 
    return 0;
