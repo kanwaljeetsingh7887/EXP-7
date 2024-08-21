@@ -147,6 +147,163 @@ int main() {
 ## Output:
 ![image](https://github.com/user-attachments/assets/f985ffcc-4c2a-4265-90b3-aaf5acf45593)
 
+## Code 7E
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+  // declare and initialize an array 
+  double numbers[] = {7.5, 2.5, 3.6, 5.12, 7.35, 24.27};
+
+  double sum = 0.0;
+  double count = 0.0;
+  double average;
+
+  cout << "The numbers are: ";
+
+  //  print array elements use of range-based for loop
+  for (const double n : numbers) {
+    cout << n << "  ";
+    //  calculate the sum
+    sum += n;
+    // count the no. of array elements
+    ++count;
+  }
+  // print the sum
+  cout << "\nSum = " << sum << endl;
+
+  // find the average
+  average = sum / count;
+  cout << "\nTheir Average = " << average << endl;
+  return 0;
+}
+```
+## Output:
+![image](https://github.com/user-attachments/assets/3c443243-638c-447f-830c-63126c31e6d4)
+
+
+## Code 7F.
+```
+// Finding minimum and maximum element of an array.          
+
+#include<iostream> 
+using namespace std; 
+
+int main() {
+    int n, i, max=0;  
+    cout<<"Enter the number of elements: ";
+    cin>>n;
+    int a[n];
+    for(i=0; i<n; i++) 
+    {
+        cout<<"Element "<<i<<" is: ";
+        cin>>a[i];
+    }
+    for (i=0;i<n; i++) 
+    {
+        if (a[i]>max) 
+        {
+            max=a[i];
+        }
+    }
+    int  min=a[0]; 
+    for (i=0; i<n;i++) 
+    {
+        if (min>a[i]) 
+        {
+            min=a[i];
+        }
+    }
+    cout<<"Maximum: "<<max<<"\n"<<"Minimum: "<<min;
+}
+```
+## Output:
+![image](https://github.com/user-attachments/assets/5a739d56-3592-4f9a-ba74-fbc9452db5b0)
+
+## Code 7G.
+```
+#include<iostream> 
+#include<string>
+using namespace std; 
+
+int main() 
+{
+    string a;
+    cout<<"Enter any word: "; 
+    cin>>a;
+    cout<<"Entered string is "<<a<<"."<<"\n";
+    return 0;
+}
+```
+
+## Output:
+![image](https://github.com/user-attachments/assets/2c707a25-40f0-4790-807c-a08ec7462f5e)
+
+## Code 7H
+```
+#include<iostream>
+#include<string>
+using namespace std;
+int main() {
+string a, b;
+cout<<"Enter strings: ";
+cin>>a>>b;
+cout<<"CONCATENATION: "<<a+b;
+
+return 0;
+} 
+```
+## Output:
+![image](https://github.com/user-attachments/assets/ce4b79dd-dbb1-40f6-9082-fa10f85a5a74)
+
+## Code 7I.
+```
+#include<iostream>
+#include<string>
+using namespace std;
+int main() {
+string a;
+cout<<"Enter string: ";
+cin>>a;
+int i;
+for(i=a.length()-1;i>=0;i--) {
+cout<<a[i];
+}
+return 0;
+}
+```
+## Output:
+![image](https://github.com/user-attachments/assets/5497a3a7-f400-4d3d-b595-65f4b251c0b1)
+
+## Code 7J.
+```
+#include<iostream>
+#include<string>
+using namespace std;
+int main() {
+string a;
+cout<<"Enter a string: ";
+cin>>a;
+int n=a.length(), i, flag=0;
+for(i=0;i<a.length();i++){
+if(a[i]==a[n-1]){
+flag=1;
+}
+n--;
+}
+if(flag==1){
+cout<<a<<" is palindrome";
+}
+else{
+cout<<a<<" is not palindrome";
+}
+}
+```
+
+## Output:
+![image](https://github.com/user-attachments/assets/b12d6c5f-8a68-4c36-a964-109a45ca17e9)
 
 
 
