@@ -149,6 +149,10 @@ int main() {
 
 ## Code 7E
 ```
+//KANWALJEET SINGH
+//ENTC B2
+//EXP 7E
+//23070123124
 #include <iostream>
 using namespace std;
 
@@ -186,6 +190,10 @@ int main() {
 
 ## Code 7F.
 ```
+//KANWALJEET SINGH
+//ENTC B2
+//EXP 7F
+//23070123124
 // Finding minimum and maximum element of an array.          
 
 #include<iostream> 
@@ -224,6 +232,10 @@ int main() {
 
 ## Code 7G.
 ```
+//KANWALJEET SINGH
+//ENTC B2
+//EXP 7G
+//23070123124
 #include<iostream> 
 #include<string>
 using namespace std; 
@@ -243,6 +255,10 @@ int main()
 
 ## Code 7H
 ```
+//KANWALJEET SINGH
+//ENTC B2
+//EXP 7H
+//23070123124
 #include<iostream>
 #include<string>
 using namespace std;
@@ -260,6 +276,10 @@ return 0;
 
 ## Code 7I.
 ```
+//KANWALJEET SINGH
+//ENTC B2
+//EXP 7I
+//23070123124
 #include<iostream>
 #include<string>
 using namespace std;
@@ -279,6 +299,10 @@ return 0;
 
 ## Code 7J.
 ```
+//KANWALJEET SINGH
+//ENTC B2
+//EXP 7J
+//23070123124
 #include<iostream>
 #include<string>
 using namespace std;
